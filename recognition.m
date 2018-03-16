@@ -1,4 +1,4 @@
-function Result = Recognition(Board,Resolution,lambda,ShowPicture,Occlusion,import_control,Sampling)
+function Result = recognition(Board,Resolution,lambda,ShowPicture,Occlusion,import_control,Sampling)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %  Ang (pan angle) = '00' '10' '20' '30'
