@@ -24,7 +24,7 @@ assert(strcmp(Ang,'00') || Occlusion==0,'Only add occlusion when Ang = 00')
 Board = strcat(Ang,'.jpg');
 
 % Pieces recognition
-Result = Recognition(Board,Resolution,lambda,ShowPicture,Occlusion,Import_control,Sampling);
+Result = recognition(Board,Resolution,lambda,ShowPicture,Occlusion,Import_control,Sampling);
 
 % Calculate the recognition accuracy
 Accuracy = compare(Result);
