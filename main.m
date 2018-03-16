@@ -27,5 +27,5 @@ Board = strcat(Ang,'.jpg');
 Result = Recognition(Board,Resolution,lambda,ShowPicture,Occlusion,Import_control,Sampling);
 
 % Calculate the recognition accuracy
-Accuracy = Compare(Result);
+Accuracy = compare(Result);
 fprintf('The recognition accuracy for this image is %.1f%%.\n',Accuracy*100);
