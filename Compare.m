@@ -1,4 +1,4 @@
-function Accuracy = Compare(Result)
+function Accuracy = compare(Result)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Input:  Result - The recognition result in the matrix form
