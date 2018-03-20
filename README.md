@@ -10,3 +10,14 @@ Recognizing three dimensional chess pieces using computer vision is needed for a
 - Change the hyperparameter in 'main.m' file based on the condition you want to test.
 - Run 'main.m' to implement the piece recognition.
 
+# Citation
+If you use our method and/or codes, please cite our paper
+
+```
+@inproceedings{xie2018chess,
+    author={Xie, Youye and Tang, Gongguo and Hoff, William},
+    title = {Chess Piece Recognition Using Oriented Chamfer Matching with a Comparison to CNN},
+    booktitle = {IEEE Winter Conference on Applications of Computer Vision (WACV)},
+    year = {2018}
+}
+```
