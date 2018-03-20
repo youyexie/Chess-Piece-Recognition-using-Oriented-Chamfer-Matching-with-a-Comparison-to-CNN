@@ -19,5 +19,6 @@ If you use our method and/or codes, please cite our paper
     title = {Chess Piece Recognition Using Oriented Chamfer Matching with a Comparison to CNN},
     booktitle = {IEEE Winter Conference on Applications of Computer Vision (WACV)},
     year = {2018}
+    organization={IEEE}
 }
 ```
