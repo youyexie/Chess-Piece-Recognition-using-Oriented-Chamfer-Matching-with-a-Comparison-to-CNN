@@ -1,5 +1,5 @@
 # Chess Piece Recognition
-Demo for the WACV'18 paper "Chess Piece Recognition Using Oriented Chamfer Matching with a Comparison to CNN"
+Demo for the WACV'18 paper ("Chess Piece Recognition Using Oriented Chamfer Matching with a Comparison to CNN")[http://inside.mines.edu/~whoff/publications/2018/WACV2018.pdf]
 
    <img src='Fig/motivation.png' width=800>
 
