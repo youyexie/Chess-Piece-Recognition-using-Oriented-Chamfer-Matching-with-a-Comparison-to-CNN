@@ -265,10 +265,9 @@ if ShowPicture
     figure(4); imshow(E,[])
 end
 
-%% Load the template
-Locations = cell(size(PiecesLocation(:),1),5);
-% % Store the search result
+%% Store the search result in 'Locations'
 % [Matching start point] [h,w of the template] [chamfer score map] [model name]
+Locations = cell(size(PiecesLocation(:),1),5);
 
 count = 0;
 
@@ -566,7 +565,7 @@ else
                     continue
                 end
                 
-                % Filter out the flase position caused by 
+                % Adjust the pieces information from the last square to the current square
                 A = Locations{templist(indexm),1}; % Get the pieces starting point
                 B = Locations{templist(indexm),2}; % Get the pieces template h&w
                 C = Locations{templist(indexm),3}; % Get the pieces chamfer matching score
