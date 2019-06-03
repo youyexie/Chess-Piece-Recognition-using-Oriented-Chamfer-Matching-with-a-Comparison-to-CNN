@@ -10,6 +10,9 @@ Recognizing three dimensional chess pieces using computer vision is needed for a
 - Change the hyperparameter in 'main.m' file based on the condition you want to test.
 - Run 'main.m' to implement the piece recognition.
 
+# Dataset
+https://github.com/youyexie/Dataset-Of-Chessboards
+
 # Citation
 If you use our method and/or codes, please cite our paper
 
